@@ -1,0 +1,26 @@
+@import url("reset.css");
+
+body {font-family: "PT Sans Narrow"; width:50%; color: beige; background: url('JK-Rowling.jpg') no-repeat; background-color: black;}
+
+h1 { font: 900 36px/36px 'pt sans narrow'; padding: 20px;}
+h2 { font: 700 24px/24px 'pt sans narrow'; padding: 20px;}
+h3 {font: 700 18px/20px 'pt sans';text-decoration: underline;}
+p {font: 400 16px/20px 'open sans';}
+
+a {font: 400 24px/24px 'pt sans narrow'; color: white; }
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: underline;}
+a:active {text-decoration: underline;}
+
+ul {list-style:none; font: 400 16px/20px 'open sans';}
+li {padding:2px;}
+
+blockquote {font: 400 16px/20px 'open sans'; font-style: italic; margin: 40px; }
+blockquote::before {content: "\201C";}
+blockquote::after {content: "\201D";}
+
+.nav {width:100px; height: 80px; position:fixed; top:198px; left: 50px;    background-color:gray; padding:10px;}
+
+.group {position:absolute; top:100px; left:180px; line-height:20px; max-width: 600px;}
+.series {margin:20px;}
